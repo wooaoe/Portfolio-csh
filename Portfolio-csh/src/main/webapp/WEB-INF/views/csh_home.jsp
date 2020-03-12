@@ -144,7 +144,7 @@
     </div> <!-- .END site-section -->
 
 	<!-- 나 소개 -->
-    <div class="site-section">
+    <!-- <div class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-6 section-title">
@@ -202,7 +202,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 	
 	<!-- 경력 기술 또는 이력서 -->
@@ -292,7 +292,7 @@
         </div>
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="resources/images/project_1.jpg" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="resources/images/recore.png" alt="Image" class="img-fluid" class="img-fluid">
             <img src="resources/images/project_2.jpg" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
@@ -302,7 +302,7 @@
             <blockquote class="blockquote">
               <p>Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod dolore commodi.</p>
               <p class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="images/person_1.jpg" alt="Image">
+                <img class="img-fluid mr-3" src="resources/images/person_1.jpg" alt="Image">
                 <cite>&mdash; John Doe</cite>
               </p>
             </blockquote>
