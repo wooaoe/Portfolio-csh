@@ -293,17 +293,20 @@
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
             <img src="resources/images/recore.png" alt="Image" class="img-fluid" class="img-fluid">
-            <img src="resources/images/project_2.jpg" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="resources/images/recore02.png" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
             <h3 style = "font-weight:600">RECORE &mdash;</h3><h3>업사이클링 관련 <br>크라우드펀딩 쇼핑몰 구현 </h3>
-            <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다.</p>
+            <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
             <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, Github 형상관리, 상품/결제 기능</p>
             <blockquote class="blockquote">
-              <p>Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod dolore commodi.</p>
+              <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.</p>
+              <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
+                  <li>사용한 기술 - Java, servlet, jsp, AJAX, HTML5/CSS/Bootstrap, Javascript/jQuery</li>
+              </ul>
               <p class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="resources/images/person_1.jpg" alt="Image">
-                <cite>&mdash; John Doe</cite>
+                <img class="img-fluid mr-3" src="resources/images/recore_logo.png" alt="Image">
+                <cite>&mdash; RECORE</cite>
               </p>
             </blockquote>
             <p class="mb-4"><a href="#" class="readmore">Visit website</a></p>
