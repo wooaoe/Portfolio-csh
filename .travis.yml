@@ -1,1 +1,11 @@
 language: java
+jdk:
+  - openjdk8
+branches:
+  only:
+    - master
+os: windows
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+    - '$HOME/.gradle'
