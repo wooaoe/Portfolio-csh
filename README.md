@@ -1,4 +1,5 @@
-## 👩‍💻성장을 갈망하는 개발자 최승혜입니다.
+![Build Status](https://travis-ci.org/wooaoe/Portfolio-csh.svg?branch=master)
+## 👩‍💻성장을 갈망하는 개발자 최승혜입니다. 
 
 
 > 짧은 배움의 순간 이었지만 저에게는 아주 의미있고 한층 더 성장할 수 있었던 계기였습니다.
