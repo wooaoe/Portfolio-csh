@@ -8,9 +8,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CSH &mdash; Portfolio</title>
+    <title>최승혜 &mdash; Portfolio</title>
     
     <jsp:include page = "/head.jsp"/>
+    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+
     
   </head>
   
@@ -34,7 +37,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-6 col-md-4">
-              <h1 class="my-0 site-logo"><a href="main">Accent<span class="text-primary">.</span> </a></h1>
+              <h1 class="my-0 site-logo"><a href="main">wooaoe<span class="text-primary">.</span></a></h1>
             </div>
             <div class="col-6 col-md-8">
               <nav class="site-navigation text-right" role="navigation">
@@ -78,7 +81,8 @@
           <div class="col-md-8 align-self-center">
             <div class="intro">
               <div class="heading">
-                <h1>자기소개 뭐라고 적어!</h1>
+              	<img src="resources/images/cshpic.png" class = "me"/>
+              	<h1>흡수력 좋은 웹 개발 <br>지원자 최승혜 입니다!</h1>
               </div>
               <div class="text">
               <br><br>
@@ -118,7 +122,7 @@
               <ul class="list-unstyled ul-check success mr-5">
                 <li>
                 <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:80%">Java &nbsp;80%</div>
+				<div class="w3-container w3-blue w3-round-large" style="width:85%">Java &nbsp;85%</div>
 				</div>
 				</li>
                 <li>
@@ -133,7 +137,7 @@
                 </li>
                 <li>
                 <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:90%">HTML/CSS &nbsp;90%</div>
+				<div class="w3-container w3-blue w3-round-large" style="width:80%">HTML/CSS &nbsp;80%</div>
 				</div>
                 </li>
                 <li>
@@ -144,6 +148,11 @@
                 <li>
                 <div class="w3-light-grey w3-round-large" style = "width:300%">
 				<div class="w3-container w3-blue w3-round-large" style="width:80%">Github &nbsp;80%</div>
+				</div>
+                </li>
+                <li>
+                <div class="w3-light-grey w3-round-large" style = "width:300%">
+				<div class="w3-container w3-blue w3-round-large" style="width:40%">AWS &nbsp;40%</div>
 				</div>
                 </li>
               </ul>
@@ -233,7 +242,7 @@
                   <span class="icon-photo_album display-4 text-primary d-block mb-4"></span>
                   <h3>학력</h3>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li>한국방송통신대학교 <br>컴퓨터과학과 전공(학사) <br>2020.03~(3학년 재학중)</li>
+                  <li>한국방송통신대학교 <br>컴퓨터과학과 전공(학사편입) <br>2020.03~(3학년 재학중)</li>
                   <li>한남대학교 의류학과 전공(학사)<br>2014.03 - 2018.08(졸업)</li>
                   <li>제천여자고등학교 <br>2011.03 - 2014.02(졸업)</li>
                   </ul>
@@ -244,7 +253,7 @@
                   <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
                   <h3>경력 사항</h3>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li>kH정보교육원 자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
+                  <li>KH정보교육원 자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
                   <li>알레마나 디자인/마케팅 2018.07~2019.05 (10개월)<br>시장 조사 및 공장 핸들링 업무</li>
                   </ul>
                 </div>
@@ -260,31 +269,6 @@
                   </ul>
                 </div>
               </div>
-    
-              <!-- <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <span class="icon-mobile display-4 text-primary d-block mb-4"></span>
-                  <h3>Mobile Apps</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <span class="icon-pencil display-4 text-primary d-block mb-4"></span>
-                  <h3>CopyWriting</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="service h-100">
-                  <span class="icon-search2 display-4 text-primary d-block mb-4"></span>
-                  <h3>Search Engine Optimization</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum ducimus temporibus, quod ipsa fuga fugiat deserunt.</p>
-                  <p><a href="#" class="readmore">Learn more</a></p>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -302,6 +286,43 @@
           </div>
         </div>
         <div class="row mb-5">
+          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+            <img src="resources/images/kiview_main02.png" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="resources/images/noticefaq.png" alt="Image" class="img-fluid" class="img-fluid">
+          </div>
+          <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
+            <h3 style = "font-weight:600">KIVIEW(Final Project) &mdash;</h3>
+            <h3>유치원 리뷰 플랫폼 사이트 구현<br>(2020.01.20~2020.03.20)</h3>
+            <p class="mb-4">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
+            <p class="mb-5"><strong class="text-black">Role:UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판, SNS공유, 
+            SNS로그인 API, <span style = "position:relative;left:19%">Danbi 챗봇</span></p>
+            <blockquote class="blockquote">
+              <p>공지사항 및 FAQ 게시판과 페이징을 구현하였으며 <br>SNS공유 API, SNS로그인 API를 이용했습니다.<br>단비의 챗봇 빌더를 이용하여 고객 문의사항을 처리하는<br> 서비스를 구축했습니다.<br>
+              AWS EC2, Route 53을 이용하여 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
+               <br>
+               <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술</li>
+                  <li class = "langskill">
+                  <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-java" id = "java" ></i>
+                  <img src='https://ifh.cc/g/tDA1JB.png' class = "spring" alt = "spring3" style = "width:22px;height:30px;"/>
+                  <i class="fab fa-github" id = "git"></i>
+                  <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
+                  <img src='https://ifh.cc/g/wzck6h.jpg' class = "spring" style = "width:50px;height:50px;"/>
+                  </li>
+              </ul>
+              <p class="mb-0 d-flex align-items-center">
+                <img class="img-fluid mr-3" src="resources/images/kiview_logo.png" alt="Image">
+                <cite>&mdash; KIVIEW</cite>
+              </p>
+            </blockquote>
+            <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" class="readmore">Visit website</a></p>
+            <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW/tree/%EC%B5%9C%EC%8A%B9%ED%98%9C" class="readmore">Visit github</a></p>
+          </div>
+        </div>
+        <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
             <img src="resources/images/recore.png" alt="Image" class="img-fluid" class="img-fluid">
             <img src="resources/images/recore02.png" alt="Image" class="img-fluid" class="img-fluid">
@@ -312,48 +333,30 @@
             <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
             <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, Github 형상관리, 상품/결제 기능</p>
             <blockquote class="blockquote">
-              <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.</p>
+              <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.<br>가장 아쉬운 부분은 결제 API 연동을
+              구현하지 못했다는 점 입니다. 사용자의 입장에서 실제 결제가 되는 것 처럼 구현하였으나, API가 아니기에 추후에 보완해야 할 부분입니다.<br>
+              AWS EC2를 이용하여 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
+              <br>
               <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li>사용한 기술 - Java 8, servlet, jsp, AJAX, HTML5/CSS/Bootstrap4, JavaScript/jQuery, 
-                  <br>Oracle 11g-SQL, OS-Chrome</li>
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술</li>
+                  <li class = "langskill">
+                  <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
+                  <img src="resources/images/servletjsp.png" class = "servlet" style = "width:80px;height:40px;">
+                  </li>
               </ul>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/recore_logo.png" alt="Image">
                 <cite>&mdash; RECORE</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" class="readmore">Visit website</a></p>
-            <p class="mb-4"><a href="https://github.com/wooaoe/RECORE" class="readmore">Visit github</a></p>
+            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" target="_blank" class="readmore">Visit website</a></p>
           </div>
         </div>
 
-        <div class="row mb-5">
-          <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-            <img src="resources/images/kiview_main.png" alt="Image" class="img-fluid" class="img-fluid">
-            <img src="resources/images/kiview_notice.png" alt="Image" class="img-fluid" class="img-fluid">
-            <img src="resources/images/kiview_faq.png" alt="Image" class="img-fluid" class="img-fluid">
-          </div>
-          <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
-            <h3 style = "font-weight:600">KIVIEW(Final Project) &mdash;</h3>
-            <h3>유치원 리뷰 플랫폼 사이트 구현<br>(2020.01.20~2020.03.20)</h3>
-            <p class="mb-4">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
-            <p class="mb-5"><strong class="text-black">Role:UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판, SNS공유, 
-            SNS로그인 API, <span style = "position:relative;left:19%">Danbi 챗봇</span></p>
-            <blockquote class="blockquote">
-              <p>공지사항 및 FAQ 게시판과 페이징을 구현하였으며 <br>SNS공유 API, SNS로그인 API를 이용했습니다.<br>단비의 챗봇 빌더를 이용하여 고객 문의사항을 처리하는<br> 서비스를 구축했습니다.</p>
-               <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li>사용한 기술 - Java 8, Spring 3, jsp, AJAX, HTML5/CSS/Bootstrap4, JavaScript/jQuery, <br>
-                  SQL-Mybatis, Kakao/Naver API, OS-Chrome</li>
-              </ul>
-              <p class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="resources/images/kiview_logo.png" alt="Image">
-                <cite>&mdash; KIVIEW</cite>
-              </p>
-            </blockquote>
-            <p class="mb-4"><a href="http://18.223.58.91:8080/KIVIEW_develop/index.do" class="readmore">Visit website</a></p>
-            <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW" class="readmore">Visit github</a></p>
-          </div>
-        </div>
+        
 
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
@@ -397,47 +400,50 @@
       <div class="container">
          <div class="row mb-5 ">
           <div class="col-md-7 section-title text-center mx-auto">
-            <span class="sub-title mb-2 d-block">Testimonials</span>
-            <h2 class="title text-primary mb-3">Our Client Sayings</h2>
+            <span class="sub-title mb-2 d-block">Interesting Field</span>
+            <h2 class="title text-primary mb-3">관심 분야 - 지식을 넓히고 싶습니다.</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod dolore commodi.</p>
+              <p>프로그래머의 세계로 이끈 계기가 된 파이썬에 늘 흥미를 느끼고 있습니다. 배움을 게을리 하지 않고 제 지식의 파이를 넓히고자 합니다.<br>
+              올해 목표는 파이썬을 꾸준히 학습하여 습득 정도를 약 80%로 높이는 것이 목표입니다.</p>
               <p  class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="resources/images/person_1.jpg" alt="Image">
-                <cite>&mdash; John Doe</cite>
+              <img class="img-fluid mr-3" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbxmFHv%2FbtqCUcpH2tT%2FmJkle32op90orU2GNTk1n1%2Fimg.png"/>
+                <!-- <img class="img-fluid mr-3" src="resources/images/person_1.jpg" alt="Image"> -->
+                <cite>&mdash; Python</cite>
               </p>
             </blockquote>
           </div>
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod dolore commodi.</p>
+              <p>대다수의 회사에서 AWS 클라우드 서비스를 이용하고 있습니다.<br>서버 배포를 미리 경험하기 위해서 세미,파이널 프로젝트에서 AWS EC2, RDS 서비스를 이용했습니다.
+              더 심도 있는 공부를 위해 7월 안으로 AWS 솔루션스 아키텍트 자격증을 따는 것이 목표입니다.</p>
               <p class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="resources/images/person_2.jpg" alt="Image">
-                <cite>&mdash; John Doe</cite>
+                <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbchUsj%2FbtqCU6JkNRT%2FZXEFzbgIwZZtvPLc0W3Ib0%2Fimg.png" alt="Image">
+                <cite>&mdash; AWS</cite>
               </p>
             </blockquote>
           </div>
           
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod
-                dolore commodi.</p>
+              <p>Restful API가 무엇인지 확실하게 공부하고, 사용해보고 싶습니다. 파이널 프로젝트에서 Kakao 로그인 API, Kakao 링크 API를 사용했습니다.<br>
+              더 나아가 실무에서 쓰이는 REST API에 대해 공부하고자 합니다. 그에 따라 업무에 실질적인 도움이 되는 사람이 되고자 합니다.</p>
               <p class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="resources/images/person_1.jpg" alt="Image">
-                <cite>&mdash; John Doe</cite>
+                <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FJxLB4%2FbtqCSXNiZZi%2FJVCGXQLsAx1X57XpimIe5K%2Fimg.png" alt="Image">
+                <cite>&mdash; REST API</cite>
               </p>
             </blockquote>
           </div>
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>Nice Looking Website Of Ours. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam excepturi quod
-                dolore commodi.</p>
+              <p>파이널 프로젝트에서 AWS를 이용해 서버를 배포할 때 리눅스가 정말 개발친화적이라는 것을 느꼈습니다. 현재 윈도우 플랫폼을 이용해 개발 공부를 하고 있는데,
+              리눅스 사용법을 더 공부하여 실무에서 필요한 인재가 되고자 합니다.</p>
               <p class="mb-0 d-flex align-items-center">
-                <img class="img-fluid mr-3" src="resources/images/person_2.jpg" alt="Image">
-                <cite>&mdash; John Doe</cite>
+                <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F8SI5q%2FbtqCSY6u2cZ%2Fz0KDA9xYm4zr1i1svrfWG1%2Fimg.png" alt="Image">
+                <cite>&mdash; LINUX</cite>
               </p>
             </blockquote>
           </div>

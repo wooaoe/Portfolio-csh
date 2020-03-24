@@ -26,9 +26,9 @@
 			<property name="configLocation" value="WEB-INF/spring/sqls/config.xml"></property>
 		</bean>
 		
-	<bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+	<!-- <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
 		<constructor-arg ref="sqlSession"></constructor-arg>
-	</bean>
+	</bean> -->
 	
    
 </beans>

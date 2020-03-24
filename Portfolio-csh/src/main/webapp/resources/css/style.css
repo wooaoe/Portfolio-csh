@@ -25,7 +25,9 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000; }
+  color: #000; 
+  font-family: 'Noto Sans Kr';
+  }
 
 .position-relative {
   position: relative !important; }
@@ -177,6 +179,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .mail{
 	background-image:url('resources/images/mail.png');
+}
+p{
+	font-family: 'Noto Sans Kr';
 }
 
 .bg-text-line {
@@ -540,7 +545,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 600px;
     height: calc(80vh); }
   .site-blocks-cover h1 {
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 900;
     line-height: 1; }
     @media (max-width: 991.98px) {
@@ -601,7 +606,8 @@ h1, h2, h3, h4, h5, h6 {
         object-fit: cover; }
   .site-blocks-cover .intro {
     z-index: 3;
-    position: relative; }
+    position: relative; 
+    width: 130%;}
     .site-blocks-cover .intro .heading h1 {
       color: #fff; }
     @media (max-width: 991.98px) {
@@ -847,3 +853,43 @@ h1, h2, h3, h4, h5, h6 {
 .blockquote img {
   width: 20%;
   border-radius: 50%; }
+.languageicon{
+	border-radius: 0%;
+	width: 20%;
+}
+#java{
+	color: #FDA638;
+	font-size:30px;
+}
+#git{
+	color:black; 
+	font-size:30px;
+	padding-left: 10px;
+}
+.langskill > i{
+	padding-right: 10px;
+}
+
+.spring{
+	position: relative;
+	bottom: 5px;
+	margin-right: 10px;
+}
+.api{
+	position: relative;
+	bottom: 5px;
+}
+.servlet{
+	position: relative;
+	bottom: 7px;
+}
+.me{
+	width: 140px;
+	height: 160px;
+	float: left;
+	margin-right: 30px;
+}
+.lang__{
+    border-radius: 50%;
+    font-size: 104px;
+}
