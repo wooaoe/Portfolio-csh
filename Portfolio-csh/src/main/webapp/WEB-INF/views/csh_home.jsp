@@ -115,7 +115,7 @@
             <img src="resources/images/hero_3.jpg" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto section-title">
-            <span class="sub-title mb-2 d-block">About Me</span>
+            <span class="sub-title mb-2 d-block">About Skill</span>
             <h2 class="title text-primary mb-3">My Skill Set</h2>
             <p class="mb-4">제가 보유하고 있는 기술 역량입니다.</p>
             <div class="d-flex">
@@ -291,14 +291,17 @@
             <img src="resources/images/noticefaq.png" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
-            <h3 style = "font-weight:600">KIVIEW(Final Project) &mdash;</h3>
+            <h3 style = "font-weight:600; color:#FDA638;">KIVIEW(Final Project) &mdash;</h3>
             <h3>유치원 리뷰 플랫폼 사이트 구현<br>(2020.01.20~2020.03.20)</h3>
             <p class="mb-4">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
-            <p class="mb-5"><strong class="text-black">Role:UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판, SNS공유, 
-            SNS로그인 API, <span style = "position:relative;left:19%">Danbi 챗봇</span></p>
+            <p ><strong class="text-black">Team:</strong> 총 7명 / 참여율 - 100% / 기여도 - 20%</p>
+            <p class="mb-5"><strong class="text-black">Role: UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판(CRUD,페이징), SNS공유, 
+            SNS로그인 API, Danbi 문의사항 챗봇</p>
             <blockquote class="blockquote">
-              <p>공지사항 및 FAQ 게시판과 페이징을 구현하였으며 <br>SNS공유 API, SNS로그인 API를 이용했습니다.<br>단비의 챗봇 빌더를 이용하여 고객 문의사항을 처리하는<br> 서비스를 구축했습니다.<br>
-              AWS EC2, Route 53을 이용하여 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
+              <p>스프링 프레임워크3를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
+                            게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API와 SNS 로그인 API를 사용하면서
+              오픈소스를 경험했습니다.<br>유달리 합이 좋았던 저희 팀을 통해 조화롭게 팀을 끌고 <br>나가는 커뮤니케이션의 힘을 체득했습니다.
+              <br>파이널 프로젝트이기에 AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
                <br>
                <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술</li>
@@ -318,7 +321,7 @@
                 <cite>&mdash; KIVIEW</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" class="readmore">Visit website</a></p>
+            <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" class="readmore" target = "_blank">Visit website</a></p>
             <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW/tree/%EC%B5%9C%EC%8A%B9%ED%98%9C" class="readmore">Visit github</a></p>
           </div>
         </div>
@@ -328,7 +331,7 @@
             <img src="resources/images/recore02.png" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
-            <h3 style = "font-weight:600">RECORE(Semi Project) &mdash;</h3><h3>업사이클링 관련 
+            <h3 style = "font-weight:600; color:#007bff;">RECORE(Semi Project) &mdash;</h3><h3>업사이클링 관련 
             <br>크라우드펀딩 쇼핑몰 구현(2019.12.05~2020.01.16) </h3>
             <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
             <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, Github 형상관리, 상품/결제 기능</p>
@@ -451,49 +454,11 @@
         </div>
       </div>
     </div>
-
+	
 
     
     
-    <div class="site-section" id="contact-section">
-      <div class="container">
-        <form action="" class="contact-form">
-
-          <div class="section-title text-center mb-5">
-            <span class="sub-title mb-2 d-block">Get In Touch</span>
-            <h2 class="title text-primary">Contact Us</h2>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-md-6 mb-4 mb-md-0">
-              <input type="text" class="form-control" placeholder="First name">
-            </div>
-            <div class="col-md-6">
-              <input type="text" class="form-control" placeholder="Last name">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <input type="text" class="form-control" placeholder="Email">
-            </div>
-          </div>
-
-          <div class="row mb-4">
-            <div class="col-12">
-              <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary btn-md">Send Message</button>
-            </div>
-          </div>
-
-        </form>
-      </div>
-    </div> <!-- END .site-section -->
+    
   
     <jsp:include page = "/footer.jsp"/>
 
