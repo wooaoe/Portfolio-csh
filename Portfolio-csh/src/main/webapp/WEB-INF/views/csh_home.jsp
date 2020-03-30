@@ -96,9 +96,9 @@
                 <span class="sub-text mb-5">&nbsp;&nbsp;+82 010-6473-3048</span>
                 <br><br><br>
                  <div class="mb-4">
-                  <a href="https://www.facebook.com/instantt68" class="pl-0 pr-3" id = "sns"><span class="icon-facebook"></span></a>
-                  <a href="https://www.linkedin.com/in/seung-hye-choi-666ba1152" class="pl-3 pr-3" id = "sns"><span class="icon-linkedin"></span></a>
-                  <a href="https://github.com/wooaoe" class="pl-3 pr-3" id = "sns"><span class="icon-github"></span></a>
+                  <a href="https://www.facebook.com/instantt68" target = "_blank" class="pl-0 pr-3" id = "sns"><span class="icon-facebook"></span></a>
+                  <a href="https://www.linkedin.com/in/seung-hye-choi-666ba1152" target = "_blank" class="pl-3 pr-3" id = "sns"><span class="icon-linkedin"></span></a>
+                  <a href="https://github.com/wooaoe" target = "_blank" class="pl-3 pr-3" id = "sns"><span class="icon-github"></span></a>
             	</div>
             	<br>
                 <!-- <p><a href="https://free-template.co/" target="_blank" class="btn btn-primary btn-md">Start a project</a></p> -->
@@ -325,7 +325,7 @@
               </p>
             </blockquote>
             <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" class="readmore" target = "_blank">Visit website</a></p>
-            <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW/tree/%EC%B5%9C%EC%8A%B9%ED%98%9C" class="readmore">Visit github</a></p>
+            <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW/tree/%EC%B5%9C%EC%8A%B9%ED%98%9C" target = "_blank" class="readmore">Visit github</a></p>
           </div>
         </div>
         <div class="row mb-5">
@@ -381,7 +381,7 @@
                 <cite>&mdash; wooaoe : 개발개발 울었다</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="https://wooaoe.tistory.com/" class="readmore">Visit myblog</a></p>
+            <p class="mb-4"><a href="https://wooaoe.tistory.com/" target = "_blank" class="readmore">Visit myblog</a></p>
             <br>
             <h3 style = "font-weight:600">Github &mdash; 잔디밭을 푸르게</h3>
             <p class="mb-4">두 번의 프로젝트와 개인 포트폴리오 및 공부 내용에 관한 내용을 commit하고 있습니다.</p>
@@ -393,7 +393,7 @@
                 <cite>&mdash; SEUNGHYE CHOI / wooaoe</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="https://wooaoe.tistory.com/" class="readmore">Visit github</a></p>
+            <p class="mb-4"><a href="https://github.com/wooaoe" target = "_blank" class="readmore">Visit github</a></p>
           </div>
         </div>
 
