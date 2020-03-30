@@ -56,6 +56,7 @@
                     <li><a href="#about-section" class="nav-link">About Skill</a></li>
                     <li><a href="#what-we-do-section" class="nav-link">What I Do</a></li>
                     <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                    <li><a href="#interest-section" class="nav-link">Interesting Field</a></li>
                     <!-- <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
                   </ul>
                 </div>
@@ -403,7 +404,7 @@
       </div>
     </div>
 
-    <div class="site-section bg-light">
+    <div class="site-section bg-light" id = "interest-section">
       <div class="container">
          <div class="row mb-5 ">
           <div class="col-md-7 section-title text-center mx-auto">
