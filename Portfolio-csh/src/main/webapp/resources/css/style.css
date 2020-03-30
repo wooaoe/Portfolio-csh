@@ -8,8 +8,10 @@ body {
   font-weight: 300;
   font-size: 1rem;
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans kr", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
-  
   }
+html{
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
 	display: none;
 }
@@ -870,7 +872,6 @@ p{
 #git{
 	color:black; 
 	font-size:30px;
-	padding-left: 10px;
 }
 .langskill > i{
 	padding-right: 10px;
@@ -898,4 +899,8 @@ p{
 .lang__{
     border-radius: 50%;
     font-size: 104px;
+}
+#uparrow{
+	font-size: 50px;
+	color: #007bff;
 }

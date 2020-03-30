@@ -17,8 +17,12 @@
     
   </head>
   
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+  <body id = "body" data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	
+  <div style="position: fixed; bottom: 90px; right: 40px; z-index: 1;">
+   <a href="#body"><i id = "uparrow" class="fas fa-angle-double-up"></i></a>
+  </div>
+  		
   <div class="site-wrap">
 
     <div class="site-mobile-menu site-navbar-target">
@@ -49,10 +53,10 @@
 
                   <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                     <li><a href="#home-section" class="nav-link">Home</a></li>
-                    <li><a href="#about-section" class="nav-link">About Me</a></li>
+                    <li><a href="#about-section" class="nav-link">About Skill</a></li>
                     <li><a href="#what-we-do-section" class="nav-link">What I Do</a></li>
                     <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                    <!-- <li><a href="#contact-section" class="nav-link">Contact</a></li> -->
                   </ul>
                 </div>
               </nav>
@@ -82,7 +86,7 @@
             <div class="intro">
               <div class="heading">
               	<img src="resources/images/cshpic.png" class = "me"/>
-              	<h1>흡수력 좋은 웹 개발 <br>지원자 최승혜 입니다!</h1>
+              	<h1>흡수력 좋은 자바 웹 개발 <br>지원자 최승혜 입니다!</h1>
               </div>
               <div class="text">
               <br><br>
@@ -304,7 +308,7 @@
               <br>파이널 프로젝트이기에 AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
                <br>
                <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술</li>
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8, Spring3)</li>
                   <li class = "langskill">
                   <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
@@ -313,7 +317,6 @@
                   <img src='https://ifh.cc/g/tDA1JB.png' class = "spring" alt = "spring3" style = "width:22px;height:30px;"/>
                   <i class="fab fa-github" id = "git"></i>
                   <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
-                  <img src='https://ifh.cc/g/wzck6h.jpg' class = "spring" style = "width:50px;height:50px;"/>
                   </li>
               </ul>
               <p class="mb-0 d-flex align-items-center">
@@ -334,19 +337,20 @@
             <h3 style = "font-weight:600; color:#007bff;">RECORE(Semi Project) &mdash;</h3><h3>업사이클링 관련 
             <br>크라우드펀딩 쇼핑몰 구현(2019.12.05~2020.01.16) </h3>
             <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
+            <p><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 20%</p>
             <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, Github 형상관리, 상품/결제 기능</p>
             <blockquote class="blockquote">
               <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.<br>가장 아쉬운 부분은 결제 API 연동을
               구현하지 못했다는 점 입니다. 사용자의 입장에서 실제 결제가 되는 것 처럼 구현하였으나, API가 아니기에 추후에 보완해야 할 부분입니다.<br>
-              AWS EC2를 이용하여 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
+              첫 PM을 맡으면서 우여곡절도 많았지만 결과적으로 계획했던대로 팀원들이 잘 따라와주어서 마무리할 수 있었습니다.
+              </p>
               <br>
               <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술</li>
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8)</li>
                   <li class = "langskill">
                   <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
-                  <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
                   <img src="resources/images/servletjsp.png" class = "servlet" style = "width:80px;height:40px;">
                   </li>
               </ul>
@@ -421,7 +425,7 @@
           </div>
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>대다수의 회사에서 AWS 클라우드 서비스를 이용하고 있습니다.<br>서버 배포를 미리 경험하기 위해서 세미,파이널 프로젝트에서 AWS EC2, RDS 서비스를 이용했습니다.
+              <p>대다수의 회사에서 AWS 클라우드 서비스를 이용하고 있습니다.<br>서버 배포를 미리 경험하기 위해서 파이널 프로젝트에서 AWS EC2, RDS 서비스를 이용했습니다.
               더 심도 있는 공부를 위해 7월 안으로 AWS 솔루션스 아키텍트 자격증을 따는 것이 목표입니다.</p>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbchUsj%2FbtqCU6JkNRT%2FZXEFzbgIwZZtvPLc0W3Ib0%2Fimg.png" alt="Image">
