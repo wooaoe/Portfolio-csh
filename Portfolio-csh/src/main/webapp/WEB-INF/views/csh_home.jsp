@@ -41,7 +41,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-6 col-md-4">
-              <h1 class="my-0 site-logo"><a href="main">wooaoe<span class="text-primary">.</span></a></h1>
+              <h1 class="my-0 site-logo"><a href="main">ChoiSeungHye<span class="text-primary">.</span></a></h1>
             </div>
             <div class="col-6 col-md-8">
               <nav class="site-navigation text-right" role="navigation">
