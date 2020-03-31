@@ -13,6 +13,9 @@
     <jsp:include page = "/head.jsp"/>
     
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+<script src="https://code.jquery.com/jquery-latest.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 
     
   </head>
@@ -54,6 +57,7 @@
                   <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                     <li><a href="#home-section" class="nav-link">Home</a></li>
                     <li><a href="#about-section" class="nav-link">About Skill</a></li>
+                    <li><a href="#introduce-section" class="nav-link">Introduce Myself</a></li>
                     <li><a href="#what-we-do-section" class="nav-link">What I Do</a></li>
                     <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                     <li><a href="#interest-section" class="nav-link">Interesting Field</a></li>
@@ -85,9 +89,9 @@
         <div class="row">
           <div class="col-md-8 align-self-center">
             <div class="intro">
-              <div class="heading">
+              <div class="heading" id = "typing-text">
               	<img src="resources/images/cshpic.png" class = "me"/>
-              	<h1>흡수력 좋은 자바 웹 개발 <br>지원자 최승혜 입니다!</h1>
+              	<h1>간략한 자기소개가 들어가는 부분 입니다.</h1>
               </div>
               <div class="text">
               <br><br>
@@ -111,9 +115,31 @@
     </div> <!-- END .site-blocks-cover -->
 
     
+	<!-- 나 소개 -->
+    <div class="site-section" id = "introduce-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-6 section-title" id = "readme">
+          	<span class="sub-title mb-2 d-block">Introduce Myself</span>
+            <h2 class="title text-primary" style = "width:200%;">제가 가지고 있는 핵심 가치는 도전, 소통, 재생산 입니다.</h2>
+          </div>
+        </div>
+        <div class="row" >
+          <div class="col-lg-6 person">
+         	 <blockquote class="blockquote2">
+	              	<p style="width: 162%; position:relative;top:10px;">어려운 문제와 직면했을 때 포기하지 않고 부딪혀 해결책을 찾으려고 노력합니다. 그 과정에서 얻었던 솔루션을 제 것으로 체득하여 조금 더
+	              	좋은 코드는 무엇일까 고민합니다. 이러한 경험을 살려 팀원과의 코드 리뷰를 통해 생산성을 높이고싶습니다.<br>새로운 기술은 스터디를 이용하여 
+	              	적극적으로 공부하고 토이프로젝트를 진행하며 성장할 것입니다.</p>
+            	</blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+	<br><br>
 	
 	<!-- 기술 역량 부분 -->
-    <div class="site-section" id="about-section">
+	
+	<div class="site-section" id="about-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5">
@@ -125,118 +151,62 @@
             <p class="mb-4">제가 보유하고 있는 기술 역량입니다.</p>
             <div class="d-flex">
               <ul class="list-unstyled ul-check success mr-5">
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:85%">Java &nbsp;85%</div>
-				</div>
-				</li>
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:80%">JavaScript &nbsp;80%</div>
-				</div>
+                <li class = "langskill">
+                  <strong class="text-black" id = "skillset">FrontEnd - &nbsp;</strong>
+                  <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
+                  <img src = "https://k.kakaocdn.net/dn/cdeMyP/btqC78s0oJE/EGrDbqgncw5EmvWpgLoGG1/img.png" 
+                  	class = "jquery">
                 </li>
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:70%">Spring 3 &nbsp;70%</div>
-				</div>
-                </li>
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:80%">HTML/CSS &nbsp;80%</div>
-				</div>
-                </li>
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:80%">SQL-Oracle &nbsp;80%</div>
-				</div>
-                </li>
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:80%">Github &nbsp;80%</div>
-				</div>
-                </li>
-                <li>
-                <div class="w3-light-grey w3-round-large" style = "width:300%">
-				<div class="w3-container w3-blue w3-round-large" style="width:40%">AWS &nbsp;40%</div>
-				</div>
-                </li>
+              <li class = "langskill">
+	              <strong class="text-black" id = "skillset">BackEnd&Data - &nbsp;</strong>
+	              <i class="fab fa-java" id = "java" ></i>
+	              <i class="fas fa-database" id = "oracle"></i>
+	              <img src='https://ifh.cc/g/tDA1JB.png' class = "spring" style = "width:22px;height:30px;"/>
+              </li>
+              <li class = "langskill">
+	              <strong class="text-black" id = "skillset">Devops - &nbsp;</strong>
+	              <i class="fab fa-github" style = "color:#000; font-size:30px;"></i>
+	              <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
+	              <i class="fab fa-linux" style = "color:#FDA638; font-size:30px;"></i>
+              </li>
               </ul>
-            </div>
-            <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center"><span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>Watch the video</span></a></p>
+            </div><br>
+            <p class="mb-4"><a onclick="document.getElementById('ex7').style.display='block'" class="readmore">자세한 기술 소개는 여기서 보실 수 있습니다.</a></p>
           </div>
         </div>
       </div>
     </div> <!-- .END site-section -->
 
-	<!-- 나 소개 -->
-    <!-- <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-6 section-title">
-            <span class="sub-title mb-2 d-block">Meet The Team</span>
-            <h2 class="title text-primary">We Are Expert In We, Branding and Mobile</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 mb-5 person">
-            <img src="resources/images/person_1.jpg" alt="Image" class="img-fluid mb-5">
-    
-            <div class="row">
-              <div class="col-lg-10 ml-auto">
-                <div class="pr-lg-5">
-                  <h3>James Anderson</h3>
-                  <span class="mb-4 d-block">CEO, Co-Founder</span>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae suscipit soluta odio itaque,
-                    consequuntur excepturi architecto, omnis iure repellat, ipsum consectetur praesentium accusantium
-                    quibusdam temporibus quasi. Ipsa quisquam rem illo.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus suscipit dolores illum, deleniti
-                    quod officiis labore ipsam? Nulla, ab perspiciatis!</p>
-                  <p class="d-flex align-items-center">
-                    <a href="#" class="twitter pr-2 pt-2 pb-2 pl-0"><span class="icon-twitter"></span></a>
-                    <a href="#" class="facebook p-2"><span class="icon-facebook"></span></a>
-                    <a href="#" class="dribbble p-2"><span class="icon-dribbble"></span></a>
-                    <a href="#" class="instagram p-2"><span class="icon-instagram"></span></a>
-                    <a href="#" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 person">
-            <img src="resources/images/person_2.jpg" alt="Image" class="img-fluid mb-5">
-            <div class="row">
-              <div class="col-lg-10 ml-auto">
-                <div class="pr-lg-5">
-                  <h3>Chris Peters</h3>
-                  <span class="mb-4 d-block">CTO, Co-Founder</span>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae suscipit soluta odio itaque,
-                    consequuntur excepturi architecto, omnis iure repellat, ipsum consectetur praesentium accusantium
-                    quibusdam temporibus quasi. Ipsa quisquam rem illo.</p>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus suscipit dolores illum, deleniti
-                    quod officiis labore ipsam? Nulla, ab perspiciatis!</p>
-                  <p class="d-flex align-items-center">
-                    <a href="#" class="twitter pr-2 pt-2 pb-2 pl-0"><span class="icon-twitter"></span></a>
-                    <a href="#" class="github p-2"><span class="icon-github"></span></a>
-                    <a href="#" class="dribbble p-2"><span class="icon-dribbble"></span></a>
-                    <a href="#" class="instagram p-2"><span class="icon-instagram"></span></a>
-                    <a href="#" class="linkedin p-2"><span class="icon-linkedin"></span></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+	<div id="ex7" class="modal">
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	 
+	<script>
+	    $('#modalclick').click(function(event) {
+	      event.preventDefault();
+	 
+	      $(this).modal({
+	        fadeDuration: 250
+	      });
+	    });
+	</script>
 	
+	
+    
 	<!-- 경력 기술 또는 이력서 -->
     <div class="site-section bg-light" id="what-we-do-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-6 section-title">
             <span class="sub-title mb-2 d-block">What I Do</span>
-            <h2 class="title text-primary" style = "width:115%;">성장을 갈망하는 웹 개발자 최승혜입니다.</h2>
+            <h2 class="title text-primary" style = "width:115%;">성장을 갈망하는 개발자 최승혜입니다.</h2>
           </div>
         </div>
         <div class="row">
@@ -256,7 +226,7 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
-                  <h3>경력 사항</h3>
+                  <h3>경력/교육 사항</h3>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>KH정보교육원 자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
                   <li>알레마나 디자인/마케팅 2018.07~2019.05 (10개월)<br>시장 조사 및 공장 핸들링 업무</li>
@@ -266,10 +236,11 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-layers display-4 text-primary d-block mb-4"></span>
-                  <h3>자격증/어학 관련</h3>
+                  <h3>자격증/어학/기타</h3>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>정보처리기사<br>취득날짜: 2019.11 <br>발급기관: 한국산업인력공단</li>
                   <li>운전면허 1종 <br>취득날짜: 2019.07 <br>발급기관: 서울지방경찰청</li>
+                  <li>IT 커뮤니티 "FIFO" 운영 <br>주요 활동: 기술동향, 세미나, 알고리즘</li>
                   <li>영어: 초급</li>
                   </ul>
                 </div>
@@ -299,17 +270,17 @@
             <h3 style = "font-weight:600; color:#FDA638;">KIVIEW(Final Project) &mdash;</h3>
             <h3>유치원 리뷰 플랫폼 사이트 구현<br>(2020.01.20~2020.03.20)</h3>
             <p class="mb-4">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
-            <p ><strong class="text-black">Team:</strong> 총 7명 / 참여율 - 100% / 기여도 - 20%</p>
+            <p ><strong class="text-black">Team:</strong> 총 7명 / 참여율 - 100% / 기여도 - 30%</p>
             <p class="mb-5"><strong class="text-black">Role: UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판(CRUD,페이징), SNS공유, 
             SNS로그인 API, Danbi 문의사항 챗봇</p>
             <blockquote class="blockquote">
-              <p>스프링 프레임워크3를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
+              <p>스프링 프레임워크를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
                             게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API와 SNS 로그인 API를 사용하면서
               오픈소스를 경험했습니다.<br>유달리 합이 좋았던 저희 팀을 통해 조화롭게 팀을 끌고 <br>나가는 커뮤니케이션의 힘을 체득했습니다.
               <br>파이널 프로젝트이기에 AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
                <br>
                <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8, Spring3)</li>
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8)</li>
                   <li class = "langskill">
                   <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
@@ -338,7 +309,7 @@
             <h3 style = "font-weight:600; color:#007bff;">RECORE(Semi Project) &mdash;</h3><h3>업사이클링 관련 
             <br>크라우드펀딩 쇼핑몰 구현(2019.12.05~2020.01.16) </h3>
             <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
-            <p><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 20%</p>
+            <p><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 40%</p>
             <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, Github 형상관리, 상품/결제 기능</p>
             <blockquote class="blockquote">
               <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.<br>가장 아쉬운 부분은 결제 API 연동을

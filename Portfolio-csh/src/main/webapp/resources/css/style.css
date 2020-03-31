@@ -718,7 +718,7 @@ p{
     border-radius: 30px; }
 
 .ul-check {
-  margin-bottom: 50px; }
+  margin-bottom: 0px; }
   .ul-check li {
     position: relative;
     padding-left: 35px;
@@ -737,6 +737,11 @@ p{
     color: #28a745; }
   .ul-check.primary li:before {
     color: #007bff; }
+
+#skillset{
+	position:relative; 
+	bottom:7px;
+}
 
 .item {
   border: none;
@@ -866,6 +871,53 @@ p{
 	color: #FDA638;
 	font-size:30px;
 }
+#oracle{
+	color: #FDA638;
+	font-size:25px;
+}
+.jquery{
+	width: 22px;
+	height: 30px;
+	position: relative;
+	bottom: 6px;
+}
+/* #readme{
+	display: table; 
+	margin-left: auto; 
+	margin-right: auto;
+} */
+
+.strenth > li{
+	display:inline;
+	list-style: none;
+	margin-right: 50px;
+	margin-left: 40px;
+}
+.core{
+	display: table; 
+	list-style:none;
+}
+
+.blockquote2:before{
+  content: "\201C";
+  font-size: 4em;
+  font-family: Georgia;
+  color: #bcbcbc;
+  float: left;
+  margin: -5px 10px 0px -10px;
+}
+.boldskill{
+	font-weight:500;
+	position: relative;
+	bottom: 10px;
+}
+.using{
+	font-size: 10px;
+}
+.blockquote2{
+	font-size: 16px;
+}
+
 #git{
 	color:black; 
 	font-size:30px;
@@ -900,4 +952,67 @@ p{
 #uparrow{
 	font-size: 50px;
 	color: #007bff;
+}
+.category.first {
+    padding: 60px 0 40px 0;
+}
+.category {
+    font-size: 0px;
+    padding: 0 0 40px 0;
+    display: flex;
+}
+.detail {
+    width: 36%;
+    font-size: initial;
+    box-sizing: border-box;
+}
+.detail .default {
+    display: flex;
+}
+.list {
+    padding: 0 0 0 32px;
+    width: 70%;
+}
+.list ul {
+    font-size: 0px;
+}
+.list li {
+    width: 50%;
+    display: inline-block;
+    margin: 0 0 28px 0;
+    height: 48px;
+}
+.list li i{
+    float: left;
+    margin: 0 12px 0 0;
+}
+.list li img{
+	float: left;
+    margin: 0 12px 0 0;
+}
+.list li div {
+    display: block;
+    font-size: 14px;
+}
+.list li div h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.list .status.p {
+    color: #004abf;
+}
+.list .status {
+    font-size: 12px;
+    margin: 0 0 0 8px;
+    display: inline-block;
+    font-weight: 500;
+}
+.list li div .desc {
+    font-size: 14px;
+}
+.list ul li{
+	float: left;
+}
+.category.last {
+    padding: 0;
 }
