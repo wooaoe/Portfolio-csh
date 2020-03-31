@@ -13,10 +13,6 @@
     <jsp:include page = "/head.jsp"/>
     
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
-<script src="https://code.jquery.com/jquery-latest.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-
     
   </head>
   
@@ -119,9 +115,9 @@
     <div class="site-section" id = "introduce-section">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg-6 section-title" id = "readme">
+          <div class="col-lg-6 section-title">
           	<span class="sub-title mb-2 d-block">Introduce Myself</span>
-            <h2 class="title text-primary" style = "width:200%;">제가 가지고 있는 핵심 가치는 도전, 소통, 재생산 입니다.</h2>
+            <h2 class="title text-primary" style = "width:200%; font-family:'Noto Sans Kr';">제가 가지고 있는 핵심 가치는 도전, 소통, 재생산 입니다.</h2>
           </div>
         </div>
         <div class="row" >
@@ -173,30 +169,45 @@
               </li>
               </ul>
             </div><br>
-            <p class="mb-4"><a onclick="document.getElementById('ex7').style.display='block'" class="readmore">자세한 기술 소개는 여기서 보실 수 있습니다.</a></p>
+            <p class="mb-4"><a onclick="document.getElementById('id01').style.display='block'" class="readmore">자세한 기술 소개는 여기서 보실 수 있습니다.</a></p>
           </div>
         </div>
       </div>
     </div> <!-- .END site-section -->
 
-	<div id="ex7" class="modal">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<div class="w3-container">
+
+	  <div id="id01" class="w3-modal">
+	  <div class="w3-modal-content">
+	
+	    <header class="w3-container w3-teal">
+	      <span onclick="document.getElementById('id01').style.display='none'"
+	      class="w3-button w3-display-topright">&times;</span>
+	      <h2>Modal Header</h2>
+	    </header>
+	    <div class="w3-container">
+	      <div class="col-lg-6 section-title" id = "readme">
+            <h2 class="title text-primary" style = "width:100%;">Frontend</h2><br>
+            <p>HTML</p><span>태그를 활용한 마크업</span><br>
+            <p>CSS<br>화면 퍼블리싱</p>
+            <p>Javascript<br>기본 문법 활용</p>
+            <p>Jquery<br>라이브러리 활용</p>
+          </div>
+	      <div class="col-lg-6 section-title" id = "readme">
+            <h2 class="title text-primary" style = "width:100%;">Backend</h2><br>
+            <p>Java<br>객체지향에 대한 이해</p>
+            <p>Spring<br>기본환경 구축 및 라이브러리를<br>통한 웹 개발</p>
+            <p>Oracle<br>JOIN에 대한 이해를 바탕으로<br>SQL문 작성</p>
+          </div>
+	      <div class="col-lg-6 section-title" id = "readme">
+            <h2 class="title text-primary" style = "width:100%;">Devops</h2><br>
+            <p>Git<br>형상관리를 위한 기본적인<br>명령어 숙지</p>
+            <p>AWS<br>EC2,Route 53을 통한 서버 구축</p>
+            <p>Linux<br>기본 명령어 숙지 및 서버 환경 설정</p>
+          </div>
+	    </div>
+	  </div>
 	</div>
-	 
-	<script>
-	    $('#modalclick').click(function(event) {
-	      event.preventDefault();
-	 
-	      $(this).modal({
-	        fadeDuration: 250
-	      });
-	    });
-	</script>
 	
 	
     
@@ -206,7 +217,7 @@
         <div class="row mb-5">
           <div class="col-lg-6 section-title">
             <span class="sub-title mb-2 d-block">What I Do</span>
-            <h2 class="title text-primary" style = "width:115%;">성장을 갈망하는 개발자 최승혜입니다.</h2>
+            <h2 class="title text-primary" style = "width:115%;font-family:'Noto Sans Kr';">성장을 갈망하는 개발자 최승혜입니다.</h2>
           </div>
         </div>
         <div class="row">
@@ -430,7 +441,7 @@
         </div>
       </div>
     </div>
-	
+	</div>
 
     
     

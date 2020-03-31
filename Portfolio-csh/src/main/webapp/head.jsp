@@ -21,4 +21,6 @@
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/modal.css">
     <link rel="icon" href="resources/images/cshpic.png" type="image/x-icon">
+    
