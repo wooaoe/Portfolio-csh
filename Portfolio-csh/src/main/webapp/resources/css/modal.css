@@ -42,13 +42,6 @@ audio:not ([controls] ){
 	display: none
 }
 
-a {
-	background-color: transparent
-}
-
-a:active, a:hover {
-	outline-width: 0
-}
 
 abbr[title] {
 	border-bottom: none;
@@ -97,7 +90,7 @@ img {
 }
 
 code, kbd, pre, samp {
-	font-family: monospace, monospace;
+	font-family: 'Noto Sans Kr';
 	font-size: 1em
 }
 
@@ -181,7 +174,7 @@ textarea {
 }
 /* End extract */
 html, body {
-	font-family: Verdana, sans-serif;
+	font-family: 'Noto Sans Kr';
 	font-size: 15px;
 	line-height: 1.5
 }
@@ -190,36 +183,13 @@ html {
 	overflow-x: hidden
 }
 
-h1 {
-	font-size: 36px
-}
-
-h2 {
-	font-size: 30px
-}
-
-h3 {
-	font-size: 24px
-}
-
-h4 {
-	font-size: 20px
-}
-
-h5 {
-	font-size: 18px
-}
-
-h6 {
-	font-size: 16px
-}
 
 .w3-serif {
-	font-family: serif
+	font-family: 'Noto Sans Kr'
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Segoe UI", Arial, sans-serif;
+	font-family: 'Noto Sans Kr';
 	font-weight: 400;
 	margin: 10px 0
 }
@@ -239,13 +209,6 @@ hr {
 	height: auto
 }
 
-img {
-	vertical-align: middle
-}
-
-a {
-	color: inherit
-}
 
 .w3-table, .w3-table-all {
 	border-collapse: collapse;
@@ -488,7 +451,15 @@ a {
 	padding: 0;
 	outline: 0;
 	width: 800px;
-	height: 400px;
+	height: 410px;
+}
+
+#modalheader h2{
+	font-family: 'Noto Sans Kr';
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 650;
 }
 
 .w3-bar {
@@ -964,7 +935,7 @@ a {
 }
 
 .w3-code, .w3-codespan {
-	font-family: Consolas, "courier new";
+	font-family: 'Noto Sans Kr';
 	font-size: 16px
 }
 
@@ -1303,9 +1274,20 @@ to {
 	padding-bottom: 16px !important
 }
 #readme{
-	float:left;
-	width: 300px;
+	float: left;
+    width: 280px;
+    position: relative;
+    left: 50px;
+    top: 15px;
 }
+
+#readme p{
+	margin-bottom: 0;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
 .w3-padding-24 {
 	padding-top: 24px !important;
 	padding-bottom: 24px !important

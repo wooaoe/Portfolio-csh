@@ -27,11 +27,14 @@ a {
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   a:hover {
-    text-decoration: none; }
-
+    text-decoration: none; 
+    }
+#morelink:hover{
+	color: #007bff;
+}
 h1, h2, h3, h4, h5, h6 {
   color: #000; 
-  font-family: 'Noto Sans Kr';
+  font-family: 'Noto Sans Kr' !important;
   }
 
 .position-relative {
@@ -186,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-image:url('resources/images/mail.png');
 }
 p{
-	font-family: 'Noto Sans Kr';
+	font-family: 'Noto Sans Kr' !important;
 }
 
 .bg-text-line {
@@ -691,7 +694,8 @@ p{
   font-weight: 900;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease; 
+  cursor: pointer}
   .readmore:after {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -707,7 +711,8 @@ p{
     opacity: 0;
     visibility: hidden; }
   .readmore:hover {
-    padding-right: 30px; }
+    padding-right: 30px; 
+    }
     .readmore:hover:after {
       opacity: 1;
       visibility: visible; }
@@ -901,7 +906,7 @@ p{
 .blockquote2:before{
   content: "\201C";
   font-size: 4em;
-  font-family: Georgia;
+  font-family: Georgia !important;
   color: #bcbcbc;
   float: left;
   margin: -5px 10px 0px -10px;

@@ -52,8 +52,8 @@
 
                   <ul class="site-menu main-menu js-clone-nav d-none d-lg-none">
                     <li><a href="#home-section" class="nav-link">Home</a></li>
-                    <li><a href="#about-section" class="nav-link">About Skill</a></li>
                     <li><a href="#introduce-section" class="nav-link">Introduce Myself</a></li>
+                    <li><a href="#about-section" class="nav-link">About Skill</a></li>
                     <li><a href="#what-we-do-section" class="nav-link">What I Do</a></li>
                     <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
                     <li><a href="#interest-section" class="nav-link">Interesting Field</a></li>
@@ -87,7 +87,7 @@
             <div class="intro">
               <div class="heading" id = "typing-text">
               	<img src="resources/images/cshpic.png" class = "me"/>
-              	<h1>간략한 자기소개가 들어가는 부분 입니다.</h1>
+              	<h1>흡수력 좋은 개발자<br>'최승혜'입니다!</h1>
               </div>
               <div class="text">
               <br><br>
@@ -169,7 +169,7 @@
               </li>
               </ul>
             </div><br>
-            <p class="mb-4"><a onclick="document.getElementById('id01').style.display='block'" class="readmore">자세한 기술 소개는 여기서 보실 수 있습니다.</a></p>
+            <p class="mb-4"><a onclick="document.getElementById('id01').style.display='block'" id = "morelink" class="readmore">자세한 기술 소개는 여기서 보실 수 있습니다.</a></p>
           </div>
         </div>
       </div>
@@ -180,30 +180,32 @@
 	  <div id="id01" class="w3-modal">
 	  <div class="w3-modal-content">
 	
-	    <header class="w3-container w3-teal">
+	    <header class="w3-container w3-teal" id = "modalheader">
 	      <span onclick="document.getElementById('id01').style.display='none'"
 	      class="w3-button w3-display-topright">&times;</span>
-	      <h2>Modal Header</h2>
+	      <h2>기술 스택 소개</h2>
 	    </header>
 	    <div class="w3-container">
 	      <div class="col-lg-6 section-title" id = "readme">
             <h2 class="title text-primary" style = "width:100%;">Frontend</h2><br>
             <p>HTML</p><span>태그를 활용한 마크업</span><br>
-            <p>CSS<br>화면 퍼블리싱</p>
-            <p>Javascript<br>기본 문법 활용</p>
-            <p>Jquery<br>라이브러리 활용</p>
+            <p>CSS</p><span>화면 퍼블리싱</span>
+            <p>Javascript</p><span>기본 문법 활용</span>
+            <p>Jquery</p><span>라이브러리 활용</span>
           </div>
+          
 	      <div class="col-lg-6 section-title" id = "readme">
             <h2 class="title text-primary" style = "width:100%;">Backend</h2><br>
-            <p>Java<br>객체지향에 대한 이해</p>
-            <p>Spring<br>기본환경 구축 및 라이브러리를<br>통한 웹 개발</p>
-            <p>Oracle<br>JOIN에 대한 이해를 바탕으로<br>SQL문 작성</p>
+            <p>Java</p><span>객체지향에 대한 이해</span>
+            <p>Spring</p><span>기본환경 구축 및 라이브러리를<br>통한 웹 개발</span>
+            <p>Oracle</p><span>JOIN에 대한 이해를 바탕으로<br>SQL문 작성</span>
           </div>
+          
 	      <div class="col-lg-6 section-title" id = "readme">
             <h2 class="title text-primary" style = "width:100%;">Devops</h2><br>
-            <p>Git<br>형상관리를 위한 기본적인<br>명령어 숙지</p>
-            <p>AWS<br>EC2,Route 53을 통한 서버 구축</p>
-            <p>Linux<br>기본 명령어 숙지 및 서버 환경 설정</p>
+            <p>Git</p><span>형상관리를 위한 기본적인<br>명령어 숙지</span>
+            <p>AWS</p><span>EC2,Route 53을 통한 서버 구축</span>
+            <p>Linux</p><span>기본 명령어 숙지 및 서버 환경 설정</span>
           </div>
 	    </div>
 	  </div>
@@ -287,8 +289,7 @@
             <blockquote class="blockquote">
               <p>스프링 프레임워크를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
                             게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API와 SNS 로그인 API를 사용하면서
-              오픈소스를 경험했습니다.<br>유달리 합이 좋았던 저희 팀을 통해 조화롭게 팀을 끌고 <br>나가는 커뮤니케이션의 힘을 체득했습니다.
-              <br>파이널 프로젝트이기에 AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
+              오픈소스를 경험했습니다.<br>파이널 프로젝트이기에 AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
                <br>
                <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8)</li>
