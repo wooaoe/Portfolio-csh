@@ -129,9 +129,11 @@
             	</blockquote>
           </div>
         </div>
+        <br><br><br>
+        <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center">
+        <span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>비디오 넣어 말어</span></a></p>
       </div>
     </div>
-	<br><br>
 	
 	<!-- 기술 역량 부분 -->
 	
@@ -322,7 +324,7 @@
             <br>크라우드펀딩 쇼핑몰 구현(2019.12.05~2020.01.16) </h3>
             <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
             <p><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 40%</p>
-            <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, Github 형상관리, 상품/결제 기능</p>
+            <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, 상품페이지, 주문서/결제 기능</p>
             <blockquote class="blockquote">
               <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.<br>가장 아쉬운 부분은 결제 API 연동을
               구현하지 못했다는 점 입니다. 사용자의 입장에서 실제 결제가 되는 것 처럼 구현하였으나, API가 아니기에 추후에 보완해야 할 부분입니다.<br>
