@@ -129,9 +129,9 @@
             	</blockquote>
           </div>
         </div>
-        <br><br><br>
-        <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center">
-        <span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>비디오 넣어 말어</span></a></p>
+        <br><br>
+       <!--  <p><a data-fancybox data-ratio="2" href="https://vimeo.com/326176805" class="d-flex align-items-center">
+        <span class="icon-play_circle_outline h4 m-0 mr-2"></span> <span>비디오 넣어 말어</span></a></p> -->
       </div>
     </div>
 	
