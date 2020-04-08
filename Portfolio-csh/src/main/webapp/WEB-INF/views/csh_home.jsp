@@ -146,7 +146,7 @@
           </div>
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">About Skill</span>
-            <h2 class="title text-primary mb-3">기술 스택</h2>
+            <h2 class="title text-primary mb-3">Skills 기술 역량</h2>
             <p class="mb-4">제가 보유하고 있는 기술 역량입니다.</p>
             <div class="d-flex">
               <ul class="list-unstyled ul-check success mr-5">
@@ -231,7 +231,7 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-photo_album display-4 text-primary d-block mb-4"></span>
-                  <h3>학력</h3><br>
+                  <h3>Edu 학력 사항</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>한국방송통신대학교 <br>컴퓨터과학과 전공(학사편입) <br>2020.03~(3학년 재학중)</li>
                   <li>한남대학교 의류학과 전공(학사)<br>2014.03 - 2018.08(졸업)</li>
@@ -242,7 +242,7 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
-                  <h3>경력/교육 사항</h3><br>
+                  <h3>Career&Edu 경력/교육 사항</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
                   <li>알레마나 디자인/마케팅 2018.07~2019.05 (10개월)<br>시장 조사 및 공장 핸들링 업무</li>
@@ -252,7 +252,7 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-layers display-4 text-primary d-block mb-4"></span>
-                  <h3>자격증/어학/기타</h3><br>
+                  <h3>Certifacate 자격증/어학/기타</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>정보처리기사<br>취득날짜: 2019.11 <br>발급기관: 한국산업인력공단</li>
                   <li>IT 커뮤니티 "FIFO" 운영 <br>주요 활동: 기술동향, 세미나, 알고리즘</li>
@@ -310,7 +310,7 @@
                <br>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/kiview_logo.png" alt="Image">
-                <cite>&mdash; <a href="download?fileName=test.pptx" class="readmore" 
+                <cite>&mdash; <a href="download?fileName=Porftfolio-kiview.pdf" class="readmore" 
             target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(download)</a></cite>
               </p>
             </blockquote>
@@ -353,8 +353,8 @@
               <br>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/recore_logo.png" alt="Image">
-                <cite>&mdash; <a href="download?fileName=test.pptx" class="readmore" 
-            target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(download)</a></cite>
+                <cite>&mdash; <a href="#" class="readmore" 
+            target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(업데이트 예정)</a></cite>
               </p>
             </blockquote>
             <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" 
