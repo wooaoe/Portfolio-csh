@@ -112,7 +112,7 @@
 
     
 	<!-- 나 소개 -->
-    <div class="site-section" id = "introduce-section">
+    <div class="site-section" id = "introduce-section" style = "padding-bottom:10;">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-6 section-title">
@@ -123,10 +123,11 @@
         <div class="row" >
           <div class="col-lg-6 person">
          	 <blockquote class="blockquote2">
-	              	<p style="width: 162%; position:relative;top:10px;">어려운 문제와 직면했을 때 포기하지 않고 부딪혀 해결책을 찾으려고 노력합니다. 그 과정에서 얻었던 솔루션을 제 것으로 체득하여 조금 더
+	              	<p style="width: 162%; position:relative;top:10px; color:#2E2E2E;">어려운 문제와 직면했을 때 포기하지 않고 부딪혀 해결책을 찾으려고 노력합니다. 그 과정에서 얻었던 솔루션을 제 것으로 체득하여 조금 더
 	              	좋은 코드는 무엇일까 고민합니다. 이러한 경험을 살려 팀원과의 코드 리뷰를 통해 생산성을 높이고싶습니다.<br>새로운 기술은 스터디를 이용하여 
 	              	적극적으로 공부하고 토이프로젝트를 진행하며 성장할 것입니다.</p>
-            	</blockquote>
+             </blockquote>
+             <img alt="" src="https://ifh.cc/g/haS7PM.png" class = "growth">
           </div>
         </div>
         <br><br>
@@ -141,11 +142,11 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 mb-5">
-            <img src="resources/images/hero_3.jpg" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="resources/images/hero_2.jpg" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 ml-auto section-title">
             <span class="sub-title mb-2 d-block">About Skill</span>
-            <h2 class="title text-primary mb-3">My Skill Set</h2>
+            <h2 class="title text-primary mb-3">기술 스택</h2>
             <p class="mb-4">제가 보유하고 있는 기술 역량입니다.</p>
             <div class="d-flex">
               <ul class="list-unstyled ul-check success mr-5">
@@ -230,7 +231,7 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-photo_album display-4 text-primary d-block mb-4"></span>
-                  <h3>학력</h3>
+                  <h3>학력</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>한국방송통신대학교 <br>컴퓨터과학과 전공(학사편입) <br>2020.03~(3학년 재학중)</li>
                   <li>한남대학교 의류학과 전공(학사)<br>2014.03 - 2018.08(졸업)</li>
@@ -241,9 +242,9 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
-                  <h3>경력/교육 사항</h3>
+                  <h3>경력/교육 사항</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li>KH정보교육원 자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
+                  <li>자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
                   <li>알레마나 디자인/마케팅 2018.07~2019.05 (10개월)<br>시장 조사 및 공장 핸들링 업무</li>
                   </ul>
                 </div>
@@ -251,10 +252,9 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-layers display-4 text-primary d-block mb-4"></span>
-                  <h3>자격증/어학/기타</h3>
+                  <h3>자격증/어학/기타</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>정보처리기사<br>취득날짜: 2019.11 <br>발급기관: 한국산업인력공단</li>
-                  <li>운전면허 1종 <br>취득날짜: 2019.07 <br>발급기관: 서울지방경찰청</li>
                   <li>IT 커뮤니티 "FIFO" 운영 <br>주요 활동: 기술동향, 세미나, 알고리즘</li>
                   <li>영어: 초급</li>
                   </ul>
@@ -284,17 +284,13 @@
           <div class="col-lg-5 h-100 jm-sticky-top mr-auto order-2 order-lg-1">
             <h3 style = "font-weight:600; color:#FDA638;">KIVIEW(Final Project) &mdash;</h3>
             <h3>유치원 리뷰 플랫폼 사이트 구현<br>(2020.01.20~2020.03.20)</h3>
-            <p class="mb-4">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
-            <p ><strong class="text-black">Team:</strong> 총 7명 / 참여율 - 100% / 기여도 - 30%</p>
-            <p class="mb-5"><strong class="text-black">Role: UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판(CRUD,페이징), SNS공유, 
+            <p class="mb-4" style = "color:#2E2E2E;">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
+            <p id = "team-role"><strong class="text-black">Team:</strong> 총 7명 / 참여율 - 100% / 기여도 - 30%</p>
+            <p class="mb-5" id = "team-role">
+            <strong class="text-black">Role : UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판(CRUD,페이징),<br> SNS공유, 
             SNS로그인 API, Danbi 문의사항 챗봇</p>
-            <blockquote class="blockquote">
-              <p>스프링 프레임워크를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
-                            게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API와 SNS 로그인 API를 사용하면서
-              오픈소스를 경험했습니다.<br>파이널 프로젝트이기에 AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리했습니다.</p>
-               <br>
                <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8)</li>
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Buisness Tool 포함)</li>
                   <li class = "langskill">
                   <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
@@ -303,63 +299,81 @@
                   <img src='https://ifh.cc/g/tDA1JB.png' class = "spring" alt = "spring3" style = "width:22px;height:30px;"/>
                   <i class="fab fa-github" id = "git"></i>
                   <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fas fa-database" id = "oracle"></i>
+                  <img src="https://ifh.cc/g/a2fvQr.png" class = "servlet" style = "width:30px;height:20px;">
                   </li>
-              </ul>
+              </ul><br><br>
+            <blockquote class="blockquote">
+              <p>스프링 프레임워크를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
+              <strong>게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API와 SNS 로그인 API를 사용하면서
+              오픈소스를 경험</strong>했습니다.<br>파이널 프로젝트이기에 <strong>AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리</strong>했습니다.</p>
+               <br>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/kiview_logo.png" alt="Image">
-                <cite>&mdash; KIVIEW</cite>
+                <cite>&mdash; <a href="download?fileName=test.pptx" class="readmore" 
+            target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(download)</a></cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" class="readmore" target = "_blank">Visit website</a></p>
-            <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW/tree/%EC%B5%9C%EC%8A%B9%ED%98%9C" target = "_blank" class="readmore">Visit github</a></p>
+            <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" 
+            class="readmore" target = "_blank" style ="font-size:13px;">Visit website</a></p>
+            <p class="mb-4"><a href="https://github.com/blue920708/KIVIEW/tree/%EC%B5%9C%EC%8A%B9%ED%98%9C" 
+            target = "_blank" class="readmore" style = "font-size:13px;">Visit github</a></p>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
             <img src="resources/images/recore.png" alt="Image" class="img-fluid" class="img-fluid">
             <img src="resources/images/recore02.png" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="resources/images/recorepay.png" alt="Image" class="img-fluid" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
             <h3 style = "font-weight:600; color:#007bff;">RECORE(Semi Project) &mdash;</h3><h3>업사이클링 관련 
             <br>크라우드펀딩 쇼핑몰 구현(2019.12.05~2020.01.16) </h3>
-            <p class="mb-4">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
-            <p><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 40%</p>
-            <p class="mb-5"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, 상품페이지, 주문서/결제 기능</p>
-            <blockquote class="blockquote">
-              <p>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품 추가, 결제페이지 기능을 맡아서 구현했습니다.<br>가장 아쉬운 부분은 결제 API 연동을
-              구현하지 못했다는 점 입니다. 사용자의 입장에서 실제 결제가 되는 것 처럼 구현하였으나, API가 아니기에 추후에 보완해야 할 부분입니다.<br>
-              첫 PM을 맡으면서 우여곡절도 많았지만 결과적으로 계획했던대로 팀원들이 잘 따라와주어서 마무리할 수 있었습니다.
-              </p>
-              <br>
+            <p class="mb-4" style = "color:#2E2E2E;">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 <br>구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
+            <p id = "team-role"><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 40%</p>
+            <p class="mb-5" id = "team-role"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, 상품페이지, 주문서/결제 기능</p>
               <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Java8)</li>
+                  <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Business Tool 포함)</li>
                   <li class = "langskill">
                   <i class="fab fa-html5" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
+                  <i class="fas fa-database" id = "oracle"></i>
                   <img src="resources/images/servletjsp.png" class = "servlet" style = "width:80px;height:40px;">
+                  <img src="https://ifh.cc/g/tfMCBc.png" class = "servlet" style = "width:80px;height:40px;">
+                  <img src="https://ifh.cc/g/a2fvQr.png" class = "servlet" style = "width:30px;height:20px;">
                   </li>
-              </ul>
+              </ul><br><br>
+              
+            <blockquote class="blockquote">
+              <p><strong>카테고리 별 상품 리스트와 바로구매, 장바구니/관심상품<br>추가, 결제페이지 기능을 맡아서 구현</strong>했습니다. 가장 아쉬운 부분은 결제 API 연동을
+              구현하지 못했다는 점 입니다.<br>사용자의 입장에서 실제 결제가 되는 것 처럼 구현하였으나, API가 아니기에 추후에 보완해야 할 부분입니다.<br>
+              <strong>첫 PM을 맡으면서 우여곡절도 많았지만 결과적으로 계획했던대로 팀원들이 잘 따라와주어서 마무리</strong>할 수 있었습니다.
+              </p>
+              <br>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/recore_logo.png" alt="Image">
-                <cite>&mdash; RECORE</cite>
+                <cite>&mdash; <a href="download?fileName=test.pptx" class="readmore" 
+            target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(download)</a></cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" target="_blank" class="readmore">Visit website</a></p>
+            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" 
+            target="_blank" class="readmore" style ="font-size:15px;">Visit website</a></p>
           </div>
         </div>
-
+		<br><br>
         
 
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="resources/images/blog.png" alt="Image" class="img-fluid" class="img-fluid">
-            <img src="resources/images/github_main.png" alt="Image" class="img-fluid" class="img-fluid">
+            <img src="resources/images/blog.png" alt="Image" class="img-fluid">
+            <img src="resources/images/github_main.png" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
             <h3 style = "font-weight:600">개인 기술 블로그 &mdash; 개발개발 울었다</h3>
-            <p class="mb-4">개인적으로 공부했던 내용과 튜토리얼/세미나에 관한 포스팅을 주로 올리고 있습니다. 가장 많은 조회수를 얻은 포스팅은 '블록체인', '머신러닝' 입니다.</p>
-            <p class="mb-5"><strong class="text-black">Blog:Tistory - </strong> IT/인터넷</p>
+            <p class="mb-4" style = "color:#2E2E2E;">개인적으로 공부했던 내용과 튜토리얼/세미나에 관한 포스팅을 주로 올리고 있습니다. 
+            가장 많은 조회수를 얻은 포스팅은 <strong style = "color:#000;">'블록체인', '머신러닝'</strong> 입니다.</p>
+            <p class="mb-5" style = "color:#000; font-weight:400;"><strong class="text-black">Blog : Tistory - </strong> IT/인터넷</p>
             <blockquote class="blockquote">
               <p>회사에 취업하고 나서도 꾸준히 블로그를 운영할 계획입니다. 배웠다고 끝이 아니라 계속해서 반복하고, 공부하는 것이 중요하다고 여깁니다.</p>
               <p class="mb-0 d-flex align-items-center">
@@ -367,11 +381,12 @@
                 <cite>&mdash; wooaoe : 개발개발 울었다</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="https://wooaoe.tistory.com/" target = "_blank" class="readmore">Visit myblog</a></p>
+            <p class="mb-4"><a href="https://wooaoe.tistory.com/" 
+            target = "_blank" class="readmore" style = "font-size:13px;">Visit myblog</a></p>
             <br>
             <h3 style = "font-weight:600">Github &mdash; 잔디밭을 푸르게</h3>
-            <p class="mb-4">두 번의 프로젝트와 개인 포트폴리오 및 공부 내용에 관한 내용을 commit하고 있습니다.</p>
-            <p class="mb-5"><strong class="text-black">Github Plan - </strong>Daily Commit</p>
+            <p class="mb-4" style = "color:#2E2E2E;">두 번의 프로젝트와 개인 포트폴리오 및 공부 내용에 관한 내용을 commit하고 있습니다.</p>
+            <p class="mb-5" style = "color:#000; font-weight:400;"><strong class="text-black">Github Plan - </strong>Daily Commit</p>
             <blockquote class="blockquote">
               <p>매일은 아니더라도 꾸준하게 커밋을 할 것입니다. 잔디밭을 푸르게 경작하는 것이 목표입니다.</p>
               <p class="mb-0 d-flex align-items-center">
@@ -379,7 +394,8 @@
                 <cite>&mdash; SEUNGHYE CHOI / wooaoe</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="https://github.com/wooaoe" target = "_blank" class="readmore">Visit github</a></p>
+            <p class="mb-4"><a href="https://github.com/wooaoe" 
+            target = "_blank" class="readmore" style = "font-size:13px;">Visit github</a></p>
           </div>
         </div>
 
