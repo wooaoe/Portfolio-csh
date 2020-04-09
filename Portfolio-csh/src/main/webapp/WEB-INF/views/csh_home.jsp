@@ -127,7 +127,7 @@
 	              	좋은 코드는 무엇일까 고민합니다. 이러한 경험을 살려 팀원과의 코드 리뷰를 통해 생산성을 높이고싶습니다.<br>새로운 기술은 스터디를 이용하여 
 	              	적극적으로 공부하고 토이프로젝트를 진행하며 성장할 것입니다.</p>
              </blockquote>
-             <img alt="" src="https://ifh.cc/g/haS7PM.png" class = "growth">
+             <img alt="" src="https://ifh.cc/g/haS7PM.png" style="width: 150%;padding-top: 80px;padding-left: 150px;">
           </div>
         </div>
         <br><br>
@@ -287,8 +287,8 @@
             <p class="mb-4" style = "color:#2E2E2E;">유치원 공공데이터를 활용하여 유치원 리뷰 플랫폼 사이트를 <br>구축했습니다. 유치원 검색 및 리뷰 작성, 커뮤니티  카페 활동이 <br>가능합니다.</p>
             <p id = "team-role"><strong class="text-black">Team:</strong> 총 7명 / 참여율 - 100% / 기여도 - 30%</p>
             <p class="mb-5" id = "team-role">
-            <strong class="text-black">Role : UI팀장 - </strong>UI총괄, 공지사항/FAQ 게시판(CRUD,페이징),<br> SNS공유, 
-            SNS로그인 API, Danbi 문의사항 챗봇</p>
+            <strong class="text-black">Role : UI팀장 - </strong><br>UI총괄, 공지사항/FAQ 게시판(CRUD,페이징,검색,조회수),<br> 
+            	카카오 링크 API, Danbi 문의사항 챗봇</p>
                <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Buisness Tool 포함)</li>
                   <li class = "langskill">
@@ -305,13 +305,11 @@
               </ul><br><br>
             <blockquote class="blockquote">
               <p>스프링 프레임워크를 이용한 처음이자 두번 째 프로젝트인 키뷰를 진행하면서 스스로 많이 성장했다고 느꼈습니다.<br>
-              <strong>게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API와 SNS 로그인 API를 사용하면서
-              오픈소스를 경험</strong>했습니다.<br>파이널 프로젝트이기에 <strong>AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리</strong>했습니다.</p>
+              <strong>게시판 CRUD와 페이징을 통해 기본기를 더 탄탄하게 다졌고, 카카오 링크 API로 오픈소스를 경험</strong>했습니다.<br>파이널 프로젝트이기에 <strong>AWS EC2와 Route 53을 통해 리눅스 서버를 배포하였고, RDS를 통해 DB를 관리</strong>했습니다.</p>
                <br>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/kiview_logo.png" alt="Image">
-                <cite>&mdash; <a href="download?fileName=Porftfolio-kiview.pdf" class="readmore" 
-            target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(download)</a></cite>
+                <cite>&mdash; KIVIEW</cite>
               </p>
             </blockquote>
             <p class="mb-4"><a href="http://www.kiview.net/kiview/index.do" 
@@ -331,7 +329,8 @@
             <br>크라우드펀딩 쇼핑몰 구현(2019.12.05~2020.01.16) </h3>
             <p class="mb-4" style = "color:#2E2E2E;">업사이클링 관련 상품과 뉴스, 크라우드 펀딩을 진행하는 쇼핑몰을 <br>구현했습니다. 고객이 직접 참여할 수 있는 참여형 사이트입니다.</p>
             <p id = "team-role"><strong class="text-black">Team: </strong> 총 6명 / 참여율 - 100% / 기여도 - 40%</p>
-            <p class="mb-5" id = "team-role"><strong class="text-black">Role: PM(팀장) - </strong> UI총괄, 상품페이지, 주문서/결제 기능</p>
+            <p class="mb-5" id = "team-role"><strong class="text-black">Role: PM(팀장) - </strong><br> UI총괄, 형상관리, 카테고리별 상품 목록 페이지, 
+            상품 상세 페이지/<br>연관 상품 추천, 주문서 작성/결제페이지 구현</p>
               <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li style = "font-size: 18px; font-weight: 400; color:#080808;">사용한 기술(Business Tool 포함)</li>
                   <li class = "langskill">
@@ -353,8 +352,7 @@
               <br>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/recore_logo.png" alt="Image">
-                <cite>&mdash; <a href="#" class="readmore" 
-            target = "_blank" style = "font-size:13px;">구현 설명 PPT입니다.(업데이트 예정)</a></cite>
+                <cite>&mdash; RECORE</cite>
               </p>
             </blockquote>
             <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" 
