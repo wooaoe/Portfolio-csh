@@ -208,7 +208,7 @@
             <h2 class="title text-primary" style = "width:100%;">Devops</h2><br>
             <p>Git</p><span>형상관리를 위한 기본적인<br>명령어 숙지</span>
             <p>AWS</p><span>EC2,Route 53을 통한 서버 구축</span>
-            <p>Linux</p><span>기본 명령어 숙지 및 서버 환경 설정</span>
+            <p>Linux</p><span>putty를 활용한 우분투 서버 환경 설정</span>
           </div>
 	    </div>
 	  </div>
@@ -355,8 +355,10 @@
                 <cite>&mdash; RECORE</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE04/issue.do?command=main" 
-            target="_blank" class="readmore" style ="font-size:15px;">Visit website</a></p>
+            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE/issue.do?command=main" 
+            target="_blank" class="readmore" style ="font-size:13px;">Visit website</a></p>
+            <p class="mb-4"><a href="https://github.com/wooaoe/RECORE_complete" 
+            target="_blank" class="readmore" style ="font-size:13px;">Visit Github</a></p>
           </div>
         </div>
 		<br><br>
