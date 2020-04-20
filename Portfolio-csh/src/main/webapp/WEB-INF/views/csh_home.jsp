@@ -202,6 +202,7 @@
             <p>Java</p><span>객체지향에 대한 이해</span>
             <p>Spring</p><span>기본환경 구축 및 라이브러리를<br>통한 웹 개발</span>
             <p>Oracle</p><span>JOIN에 대한 이해를 바탕으로<br>SQL문 작성</span>
+            <p>Mybatis</p><span>Spring연동 및 SQL문 활용</span>
           </div>
           
 	      <div class="col-lg-6 section-title" id = "readme">
@@ -233,7 +234,6 @@
                   <span class="icon-photo_album display-4 text-primary d-block mb-4"></span>
                   <h3>Edu 학력 사항</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
-                  <li>한국방송통신대학교 <br>컴퓨터과학과 전공(학사편입) <br>2020.03~(3학년 재학중)</li>
                   <li>한남대학교 의류학과 전공(학사)<br>2014.03 - 2018.08(졸업)</li>
                   <li>제천여자고등학교 <br>2011.03 - 2014.02(졸업)</li>
                   </ul>
