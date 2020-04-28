@@ -1032,3 +1032,8 @@ p{
 	padding-top: 80px;
     padding-left: 150px;
 }
+@media (min-width: 700px) {
+    .blockquote2 > p{
+      max-width: 680px; 
+} 
+}

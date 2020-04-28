@@ -117,17 +117,17 @@
         <div class="row mb-5">
           <div class="col-lg-6 section-title">
           	<span class="sub-title mb-2 d-block">Introduce Myself</span>
-            <h2 class="title text-primary" style = "width:200%; font-family:'Noto Sans Kr';">제가 가지고 있는 핵심 가치는 도전, 소통, 재생산 입니다.</h2>
+            <h2 class="title text-primary" style = "font-family:'Noto Sans Kr';">제가 가지고 있는 핵심 가치는<br>도전, 소통, 재생산 입니다.</h2>
           </div>
         </div>
         <div class="row" >
           <div class="col-lg-6 person">
-         	 <blockquote class="blockquote2">
-	              	<p style="width: 162%; position:relative;top:10px; color:#2E2E2E;">어려운 문제와 직면했을 때 포기하지 않고 부딪혀 해결책을 찾으려고 노력합니다. 그 과정에서 얻었던 솔루션을 제 것으로 체득하여 조금 더
-	              	좋은 코드는 무엇일까 고민합니다. 이러한 경험을 살려 팀원과의 코드 리뷰를 통해 생산성을 높이고싶습니다.<br>새로운 기술은 스터디를 이용하여 
+         	 <blockquote class="blockquote2" style = "width:140%;">
+	              	<p style="position:relative;top:10px; color:#2E2E2E;">어려운 문제와 직면했을 때 포기하지 않고 부딪혀 해결책을 찾으려고 노력합니다. 그 과정에서 얻었던 솔루션을 제 것으로 체득하여 조금 더
+	              	좋은 코드는 무엇일까 고민합니다. 이러한 경험을 살려 팀원과의 코드 리뷰를 통해 생산성을 높이고싶습니다. 새로운 기술은 스터디를 이용하여 
 	              	적극적으로 공부하고 토이프로젝트를 진행하며 성장할 것입니다.</p>
              </blockquote>
-             <img alt="" src="https://ifh.cc/g/haS7PM.png" style="width: 150%;padding-top: 80px;padding-left: 150px;">
+             <img alt="" src="resources/images/growth3.png" class = "img-fluid" style="padding-top: 80px;padding-left: 150px;">
           </div>
         </div>
         <br><br>
@@ -162,7 +162,7 @@
 	              <strong class="text-black" id = "skillset">BackEnd&Data - &nbsp;</strong>
 	              <i class="fab fa-java" id = "java" ></i>
 	              <i class="fas fa-database" id = "oracle"></i>
-	              <img src='https://ifh.cc/g/tDA1JB.png' class = "spring" style = "width:22px;height:30px;"/>
+	              <img src='resources/images/springicon.png' class = "spring" style = "width:22px;height:30px;"/>
               </li>
               <li class = "langskill">
 	              <strong class="text-black" id = "skillset">Devops - &nbsp;</strong>
@@ -296,11 +296,11 @@
                   <i class="fab fa-css3-alt" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fab fa-java" id = "java" ></i>
-                  <img src='https://ifh.cc/g/tDA1JB.png' class = "spring" alt = "spring3" style = "width:22px;height:30px;"/>
+                  <img src='resources/images/springicon.png' class = "spring" alt = "spring3" style = "width:22px;height:30px;"/>
                   <i class="fab fa-github" id = "git"></i>
                   <i class="fab fa-aws" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fas fa-database" id = "oracle"></i>
-                  <img src="https://ifh.cc/g/a2fvQr.png" class = "servlet" style = "width:30px;height:20px;">
+                  <img src="resources/images/slack.png" class = "servlet" style = "width:30px;height:20px;">
                   </li>
               </ul><br><br>
             <blockquote class="blockquote">
@@ -339,8 +339,8 @@
                   <i class="fab fa-js" style = "color:#FDA638; font-size:30px;"></i>
                   <i class="fas fa-database" id = "oracle"></i>
                   <img src="resources/images/servletjsp.png" class = "servlet" style = "width:80px;height:40px;">
-                  <img src="https://ifh.cc/g/tfMCBc.png" class = "servlet" style = "width:80px;height:40px;">
-                  <img src="https://ifh.cc/g/a2fvQr.png" class = "servlet" style = "width:30px;height:20px;">
+                  <img src="resources/images/tomcat.png" class = "servlet" style = "width:80px;height:40px;">
+                  <img src="resources/images/slack.png" class = "servlet" style = "width:30px;height:20px;">
                   </li>
               </ul><br><br>
               
@@ -375,7 +375,7 @@
             가장 많은 조회수를 얻은 포스팅은 <strong style = "color:#000;">'블록체인', '머신러닝'</strong> 입니다.</p>
             <p class="mb-5" style = "color:#000; font-weight:400;"><strong class="text-black">Blog : Tistory - </strong> IT/인터넷</p>
             <blockquote class="blockquote">
-              <p>회사에 취업하고 나서도 꾸준히 블로그를 운영할 계획입니다. 배웠다고 끝이 아니라 계속해서 반복하고, 공부하는 것이 중요하다고 여깁니다.</p>
+              <p>회사에 취업하고 나서도 꾸준히 블로그를 운영할 계획입니다.<br>배웠다고 끝이 아니라 계속해서 반복하고, 공부하는 것이 중요하다고 여깁니다.</p>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/csh_emogi.png" alt="Image">
                 <cite>&mdash; wooaoe : 개발개발 울었다</cite>
@@ -388,7 +388,7 @@
             <p class="mb-4" style = "color:#2E2E2E;">두 번의 프로젝트와 개인 포트폴리오 및 공부 내용에 관한 내용을 commit하고 있습니다.</p>
             <p class="mb-5" style = "color:#000; font-weight:400;"><strong class="text-black">Github Plan - </strong>Daily Commit</p>
             <blockquote class="blockquote">
-              <p>매일은 아니더라도 꾸준하게 커밋을 할 것입니다. 잔디밭을 푸르게 경작하는 것이 목표입니다.</p>
+              <p>매일은 아니더라도 꾸준하게 커밋을 할 것입니다.<br>잔디밭을 푸르게 경작하는 것이 목표입니다.</p>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="resources/images/github01.png" alt="Image">
                 <cite>&mdash; SEUNGHYE CHOI / wooaoe</cite>
@@ -416,8 +416,8 @@
         <div class="row">
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>프로그래머의 세계로 이끈 계기가 된 파이썬에 늘 흥미를 느끼고 있습니다. 배움을 게을리 하지 않고 제 지식의 파이를 넓히고자 합니다.<br>
-              올해 목표는 파이썬을 꾸준히 학습하여 습득 정도를 약 80%로 높이는 것이 목표입니다.</p>
+              <p>개발을 시작하게 된 계기인 파이썬에 늘 흥미를 느끼고 있습니다.<br>배움을 게을리 하지 않고 제 지식의 파이를 넓히고자 합니다.<br>
+              올해 목표는 파이썬을 꾸준히 학습하여 습득 정도를 약 80%로 <br>높이는 것이 목표입니다.</p>
               <p  class="mb-0 d-flex align-items-center">
               <img class="img-fluid mr-3" src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbxmFHv%2FbtqCUcpH2tT%2FmJkle32op90orU2GNTk1n1%2Fimg.png"/>
                 <!-- <img class="img-fluid mr-3" src="resources/images/person_1.jpg" alt="Image"> -->
@@ -428,7 +428,7 @@
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
               <p>대다수의 회사에서 AWS 클라우드 서비스를 이용하고 있습니다.<br>서버 배포를 미리 경험하기 위해서 파이널 프로젝트에서 AWS EC2, RDS 서비스를 이용했습니다.
-              더 심도 있는 공부를 위해 7월 안으로 AWS 솔루션스 아키텍트 자격증을 따는 것이 목표입니다.</p>
+              더 심도 있는 공부를 위해 10월 안으로 AWS 솔루션스 아키텍트 자격증을 따는 것이 목표입니다.</p>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FbchUsj%2FbtqCU6JkNRT%2FZXEFzbgIwZZtvPLc0W3Ib0%2Fimg.png" alt="Image">
                 <cite>&mdash; AWS</cite>
@@ -438,8 +438,8 @@
           
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>Restful API가 무엇인지 확실하게 공부하고, 사용해보고 싶습니다. 파이널 프로젝트에서 Kakao 로그인 API, Kakao 링크 API를 사용했습니다.<br>
-              더 나아가 실무에서 쓰이는 REST API에 대해 공부하고자 합니다. 그에 따라 업무에 실질적인 도움이 되는 사람이 되고자 합니다.</p>
+              <p>Restful API가 무엇인지 확실하게 공부하고, 사용해보고 싶습니다.<br>
+              더 나아가 실무에서 쓰이는 REST API에 대해 공부하고자 합니다.<br>그에 따라 업무에 실질적인 도움이 되는 사람이 되고자 합니다.</p>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FJxLB4%2FbtqCSXNiZZi%2FJVCGXQLsAx1X57XpimIe5K%2Fimg.png" alt="Image">
                 <cite>&mdash; REST API</cite>
@@ -448,7 +448,7 @@
           </div>
           <div class="col-lg-6 mb-4">
             <blockquote class="blockquote">
-              <p>파이널 프로젝트에서 AWS를 이용해 서버를 배포할 때 리눅스가 정말 개발친화적이라는 것을 느꼈습니다. 현재 윈도우 플랫폼을 이용해 개발 공부를 하고 있는데,
+              <p>파이널 프로젝트에서 AWS를 이용해 서버를 배포할 때 리눅스가 개발친화적이라는 것을 느꼈습니다. 현재 윈도우 플랫폼을 이용해 개발 <br>공부를 하고 있는데,
               리눅스 사용법을 더 공부하여 실무에서 필요한 인재가 되고자 합니다.</p>
               <p class="mb-0 d-flex align-items-center">
                 <img class="img-fluid mr-3" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2F8SI5q%2FbtqCSY6u2cZ%2Fz0KDA9xYm4zr1i1svrfWG1%2Fimg.png" alt="Image">
