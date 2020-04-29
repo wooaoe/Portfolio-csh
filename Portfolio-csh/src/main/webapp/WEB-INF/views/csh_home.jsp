@@ -127,7 +127,6 @@
 	              	좋은 코드는 무엇일까 고민합니다. 이러한 경험을 살려 팀원과의 코드 리뷰를 통해 생산성을 높이고싶습니다. 새로운 기술은 스터디를 이용하여 
 	              	적극적으로 공부하고 토이프로젝트를 진행하며 성장할 것입니다.</p>
              </blockquote>
-             <img alt="" src="resources/images/growth3.png" class = "img-fluid" style="padding-top: 80px;padding-left: 150px;">
           </div>
         </div>
         <br><br>
