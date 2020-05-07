@@ -354,7 +354,7 @@
                 <cite>&mdash; RECORE</cite>
               </p>
             </blockquote>
-            <p class="mb-4"><a href="http://52.71.175.252:8080/RECORE/issue.do?command=main" 
+            <p class="mb-4"><a href="http://34.226.58.152:8080/RECORE/issue.do?command=main" 
             target="_blank" class="readmore" style ="font-size:13px;">Visit website</a></p>
             <p class="mb-4"><a href="https://github.com/wooaoe/RECORE_complete" 
             target="_blank" class="readmore" style ="font-size:13px;">Visit Github</a></p>
