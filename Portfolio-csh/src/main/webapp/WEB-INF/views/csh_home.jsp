@@ -241,10 +241,11 @@
               <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                 <div class="service h-100">
                   <span class="icon-laptop_mac display-4 text-primary d-block mb-4"></span>
-                  <h3>Career&Edu 경력/교육 사항</h3><br>
+                  <h3>Edu&Activity 교육/대외활동(사회경험)</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>자바 프레임워크<br>개발자 양성과정 수료<br>2019.08.16~2020.03.20 (7개월)</li>
-                  <li>알레마나 디자인/마케팅 2018.07~2019.05 (10개월)<br>시장 조사 및 공장 핸들링 업무</li>
+                  <li>알레마나 - 스포츠 의류 회사<br> 디자인/마케팅 사원<br>2018.07~2019.05(11개월)<br>
+                  기본적인 문서 작성(exel, word, ppt)과 <br>고객사와의 커뮤니케이션 기술을 습득했습니다.</li>
                   </ul>
                 </div>
               </div>
@@ -254,8 +255,8 @@
                   <h3>Certifacate 자격증/어학/기타</h3><br>
                   <ul class="list-unstyled ul-check success mr-5" style = "width:100%">
                   <li>정보처리기사<br>취득날짜: 2019.11 <br>발급기관: 한국산업인력공단</li>
+                  <li>영어: TOEIC Speaking Level 6(140점) 취득날짜: 2020년 5월</li>
                   <li>IT 커뮤니티 "FIFO" 운영 <br>주요 활동: 기술동향, 세미나, 알고리즘</li>
-                  <li>영어: 초급</li>
                   </ul>
                 </div>
               </div>
@@ -365,7 +366,7 @@
 
         <div class="row mb-5">
           <div class="col-lg-6 mb-4 mb-lg-0">
-            <img src="resources/images/blog.png" alt="Image" class="img-fluid">
+            <img src="resources/images/blog02.png" alt="Image" class="img-fluid">
             <img src="resources/images/github_main.png" alt="Image" class="img-fluid">
           </div>
           <div class="col-lg-5 h-100 jm-sticky-top ml-auto">
